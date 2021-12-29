@@ -8,10 +8,11 @@ body {
 }
 
 .header {
-    background-color: #1F2937;
+    background-color: #6895d3;
     display: flex;
     align-items: center;
     justify-content: space-around;
+    flex: 0;
 }
 
 .header-logo-container {
@@ -39,4 +40,64 @@ a {
     align-items: center;
     justify-content: center;
     color: #E5E7EB;
-  }
+}
+
+.header,
+.footer {
+    padding: 5px;
+}
+
+.body-content {
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(142, 158, 153);
+    flex: 1;
+}
+
+.website-container {
+    background-color: #0b4392;
+    display: flex;
+    padding: 75px;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    flex-shrink: 0;
+}
+
+.awesome-website-title {
+    font-size: 48px;
+    font-weight: bold;
+    color: #F9FAF8;
+    text-align: left;
+}
+
+.awesome-text {
+    color: #E5E7EB;
+    text-align: left;
+}
+
+.button-1 {
+    background-color: #3882F6;
+    color: #F9FAF8;
+    border-radius: 8px;
+    padding: 5px 30px;
+    border: none;
+}
+
+.text-container {
+    background-color: cadetblue;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    text-align: left;
+    flex: 0;
+    width: 100%;
+}
+
+.modem-image {
+    display: flex;
+    flex-shrink: 0;
+    width: 100px;
+    height: 400px;
+
+}

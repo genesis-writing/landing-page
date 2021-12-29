@@ -1,2 +1,10 @@
 # landing-page
-This webpage is part of the Foundations of The Odin Project. 
+This webpage is part of the Foundations of The Odin Project. All images were downloaded from pixabay.
+
+# Image References
+
+1. Modem image by <a href="https://pixabay.com/users/satheeshsankaran-11196627/?utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=image&amp;utm_content=6183189">Satheesh Sankaran</a> from <a href="https://pixabay.com/?utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=image&amp;utm_content=6183189">Pixabay</a>
+2. Computer and gear image by <a href="https://pixabay.com/users/megan_rexazin-6742250/?utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=image&amp;utm_content=4156928">Megan Rexazin</a> from <a href="https://pixabay.com/?utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=image&amp;utm_content=4156928">Pixabay</a>
+3. TV - Youtube image by <a href="https://pixabay.com/users/asi24-2397893/?utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=image&amp;utm_content=1614709">asi24</a> from <a href="https://pixabay.com/?utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=image&amp;utm_content=1614709">Pixabay</a>
+4. Cell phone image by <a href="https://pixabay.com/users/der_sharan-9891484/?utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=image&amp;utm_content=5146897">Sharan Vijayagopal</a> from <a href="https://pixabay.com/?utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=image&amp;utm_content=5146897">Pixabay</a>
+5. Gaming on phone image by <a href="https://pixabay.com/users/haticeerol-14967706/?utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=image&amp;utm_content=5602592">Hatice EROL</a> from <a href="https://pixabay.com/?utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=image&amp;utm_content=5602592">Pixabay</a>
