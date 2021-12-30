@@ -8,7 +8,7 @@ body {
 }
 
 .header {
-    background-color: #6895d3;
+    background-color: #1F2937;
     display: flex;
     align-items: center;
     justify-content: space-around;
@@ -54,14 +54,15 @@ a {
     flex: 1;
 }
 
-.website-container {
-    background-color: #0b4392;
+.hero-container {
+    background-color:#1F2937;
     display: flex;
-    padding: 75px;
+    padding: 65px;
     justify-content: center;
     align-items: center;
-    margin: 0;
+    column-gap: 65px;
     flex-shrink: 0;
+    margin-bottom: 0;
 }
 
 .awesome-website-title {
@@ -85,19 +86,112 @@ a {
 }
 
 .text-container {
-    background-color: cadetblue;
+    background-color: #1F2937;
     display: flex;
     flex-direction: column;
     align-items: flex-start;
-    text-align: left;
-    flex: 0;
-    width: 100%;
 }
 
 .modem-image {
-    display: flex;
-    flex-shrink: 0;
-    width: 100px;
-    height: 400px;
+    width: 200px;
+    height: 200px;
+}
 
+.random-info-container {
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    padding-top: 65px;
+    padding-left: 130px;
+    padding-right: 130px;
+    padding-bottom: 160px;
+    justify-content: center;
+    align-items: center;
+    column-gap: 65px;
+    flex-shrink: 0;
+    margin-bottom: 0;
+}
+
+.info-text-container {
+    font-size: 36px;
+    font-weight: bold;
+    color: #1F2937;
+    margin-bottom: 45px;
+}
+
+.random-info-pictures {
+    display: flex;
+    align-items: center;
+    gap: 55px;
+    flex: 1 1 auto;
+}
+
+.random-info-pic-1,
+.random-info-pic-2,
+.random-info-pic-3,
+.random-info-pic-4 {
+    text-align: center;
+    width: 150px;
+}
+
+.pic-1,
+.pic-2,
+.pic-3,
+.pic-4 {
+    width: 150px;
+    height: 150px;
+    border: 10px solid #3882F6;
+    border-radius: 20px;
+}
+
+.quote-container {
+    background-color: #E5E7EB;
+    padding: 100px;
+    flex-shrink: 0;
+}
+
+.quote {
+    font-size: 36px;
+    font-style: italic;
+    color: #1F2937;
+    text-align: left;
+}
+
+.person-quote {
+    text-align: right;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.call-to-action-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 65px;
+}
+
+.blue-call-to-action {
+    background-color: #3882F6;
+    border-radius: 8px;
+    padding: 30px 180px;
+    display: flex;
+    color: #E5E7EB;
+    gap: 65px;
+}
+
+.call-action-exclamation {
+    text-align: left;
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 0;
+}
+
+.button-2 {
+    background-color: #3882F6;
+    color: #F9FAF8;
+    border-style: solid;
+    border-color: #F9FAF8;
+    border-width: medium;
+    border-radius: 8px;
+    padding: 5px 50px;
 }
