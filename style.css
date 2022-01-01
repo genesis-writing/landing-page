@@ -4,7 +4,6 @@ body {
     font-family: Roboto, sans-serif;
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
 }
 
 .header {
@@ -12,18 +11,17 @@ body {
     display: flex;
     align-items: center;
     justify-content: space-around;
-    flex: 0;
 }
 
 .header-logo-container {
     font-size: 24px;
     color: #F9FAF8;
     font-weight: bold;
+    flex: 1;
 }
 
 .header-links {
     display: flex;
-    padding: 0px;
     gap: 20px;
     list-style: none;
 }
@@ -44,37 +42,32 @@ a {
 
 .header,
 .footer {
-    padding: 5px;
+    padding: 5px 120px;
 }
 
 .body-content {
     display: flex;
     flex-direction: column;
-    background-color: rgb(142, 158, 153);
-    flex: 1;
 }
 
 .hero-container {
-    background-color:#1F2937;
+    background-color: #1F2937;
     display: flex;
-    padding: 65px;
-    justify-content: center;
     align-items: center;
-    column-gap: 65px;
-    flex-shrink: 0;
-    margin-bottom: 0;
+    justify-content: space-around;
+    padding: 65px 120px;
+    gap: 30px;
 }
 
 .awesome-website-title {
     font-size: 48px;
     font-weight: bold;
     color: #F9FAF8;
-    text-align: left;
 }
 
 .awesome-text {
     color: #E5E7EB;
-    text-align: left;
+    font-size: 18px;
 }
 
 .button-1 {
@@ -90,11 +83,13 @@ a {
     display: flex;
     flex-direction: column;
     align-items: flex-start;
+    flex-wrap: wrap;
+    flex: 1;
 }
 
 .modem-image {
-    width: 200px;
-    height: 200px;
+    display: flex;
+    flex: 2;
 }
 
 .random-info-container {
@@ -102,10 +97,9 @@ a {
     display: flex;
     flex-direction: column;
     padding-top: 65px;
-    padding-left: 130px;
-    padding-right: 130px;
-    padding-bottom: 160px;
-    justify-content: center;
+    padding-left: 120px;
+    padding-right: 120px;
+    padding-bottom: 110px;
     align-items: center;
     column-gap: 65px;
     flex-shrink: 0;
@@ -146,8 +140,9 @@ a {
 
 .quote-container {
     background-color: #E5E7EB;
-    padding: 100px;
+    padding: 150px 300px;
     flex-shrink: 0;
+    flex-grow: 0;
 }
 
 .quote {
@@ -155,6 +150,7 @@ a {
     font-style: italic;
     color: #1F2937;
     text-align: left;
+    margin-bottom: 15px;
 }
 
 .person-quote {
@@ -167,7 +163,9 @@ a {
     display: flex;
     justify-content: center;
     align-items: center;
-    padding: 65px;
+    padding: 65px 120px;
+    background-color: white;
+    flex: 1 1 100%;
 }
 
 .blue-call-to-action {
@@ -176,14 +174,15 @@ a {
     padding: 30px 180px;
     display: flex;
     color: #E5E7EB;
-    gap: 65px;
+    gap: 65px 120px;
+    flex: 1;
 }
 
 .call-action-exclamation {
     text-align: left;
     font-size: 24px;
     font-weight: bold;
-    margin-bottom: 0;
+    margin-bottom: -10px;
 }
 
 .button-2 {
@@ -193,5 +192,15 @@ a {
     border-color: #F9FAF8;
     border-width: medium;
     border-radius: 8px;
-    padding: 5px 50px;
+    padding: 5px 30px;
+
+    flex: 0 0 auto;
+    align-self: center;
+    justify-self: center;
+}
+
+.call-to-action-text {
+    display: flex;
+    flex-direction: column;
+    flex: 2;
 }
