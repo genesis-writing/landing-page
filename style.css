@@ -1,5 +1,6 @@
 body {
-    height: 100vh;
+    position: relative;
+    min-height: 100vh;
     margin: 0;
     font-family: Roboto, sans-serif;
     display: flex;
@@ -38,6 +39,8 @@ a {
     align-items: center;
     justify-content: center;
     color: #E5E7EB;
+    
+    
 }
 
 .header,
@@ -48,6 +51,7 @@ a {
 .body-content {
     display: flex;
     flex-direction: column;
+    flex-grow: 1;
 }
 
 .hero-container {
