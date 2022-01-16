@@ -1,0 +1,8 @@
+- Edit style.css remove uncecessary whitespace
+- Edit style.css to lock footer to bottom of screen
+- Edit README.md, index.html, and style.css
+- Edit index.html and style.css
+- Edit README.md, index.html, and style.css
+- Edit index.html and style.css
+- Add index.html and style.css files. Edit index.html
+- Initial commit
