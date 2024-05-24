@@ -1,0 +1,137 @@
+* {
+    /* Reset to override the user-agent stylesheet */
+    margin: 0;
+    padding: 0;
+}
+
+/* Google Roboto font */
+.roboto-thin {
+    font-family: "Roboto", sans-serif;
+    font-weight: 100;
+    font-style: normal;
+}
+
+.roboto-light {
+    font-family: "Roboto", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+}
+
+.roboto-regular {
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.roboto-medium {
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+}
+
+.roboto-bold {
+    font-family: "Roboto", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+}
+
+.roboto-black {
+    font-family: "Roboto", sans-serif;
+    font-weight: 900;
+    font-style: normal;
+}
+
+.roboto-thin-italic {
+    font-family: "Roboto", sans-serif;
+    font-weight: 100;
+    font-style: italic;
+}
+
+.roboto-light-italic {
+    font-family: "Roboto", sans-serif;
+    font-weight: 300;
+    font-style: italic;
+}
+
+.roboto-regular-italic {
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-style: italic;
+}
+
+.roboto-medium-italic {
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    font-style: italic;
+}
+
+.roboto-bold-italic {
+    font-family: "Roboto", sans-serif;
+    font-weight: 700;
+    font-style: italic;
+}
+
+.roboto-black-italic {
+    font-family: "Roboto", sans-serif;
+    font-weight: 900;
+    font-style: italic;
+}  
+
+body {
+    font-family: roboto;
+    display: flex;
+    flex-direction: column;
+}
+
+.top-nav-bar-container {
+    background-color: #1F2937;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.header-logo-text {
+    font-size: 24px;
+    color: #F9FAF8;
+}
+
+.top-nav-bar-links {
+    list-style-type: none;
+    font-size: 18px;
+    color: #e5e7eb;
+    display: flex;
+    padding: 16px;
+    gap: 32px;
+}
+
+.intro-container {
+    background-color: #1F2937;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 50px;
+    padding-bottom: 75px;
+    gap: 45px;
+}
+
+.main-hero-text {
+    font-size: 48px;
+    font-weight: 800;
+    color: #F9FAF8;
+}
+
+.main-hero-subtext {
+    font-size: 18px;
+    color: #e5e7eb;
+}
+
+.first-sign-up-button {
+    background-color: #3882F6;
+    font-size: 20px;
+    font-weight: bold;
+    color: #e5e7eb;
+    text-align: center;
+    border-radius: 8px;
+    padding: 8px 24px;
+    border: none;
+}
