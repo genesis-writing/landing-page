@@ -135,3 +135,62 @@ body {
     padding: 8px 24px;
     border: none;
 }
+
+.foods-statement {
+    font-size: 36px;
+    font-weight: 800;
+    color: #1F2937;
+    text-align: center;
+    padding-top: 30px;
+}
+
+.foods {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    padding-top: 40px;
+    padding-bottom: 75px;
+    gap: 45px;
+    flex-wrap: wrap;
+}
+
+.food-image {
+    border: 8px solid #3882F6;
+    border-radius: 8px;
+    margin-bottom: 8px;
+}
+
+.food-name {
+    text-align: center;
+    color: #6e6e6f;
+    font-size: 18px;
+}
+
+.quote-container {
+    background-color:#e5e7eb;
+    padding: 125px 50px;
+    display: flex;
+    justify-content: center;
+}
+
+.nested-quote-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 1000px;
+}
+
+.quote {
+    font-size: 36px;
+    font-style: italic;
+    font-weight: 300px;
+    color: #1F2937;
+    align-self: flex-start;
+}
+
+.quote-source {
+    font-size: 36px;
+    font-weight: 800;
+    color: #1F2937;
+    align-self: flex-end;
+}
