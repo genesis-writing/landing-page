@@ -194,3 +194,52 @@ body {
     color: #1F2937;
     align-self: flex-end;
 }
+
+.call-to-action-container {
+    padding: 100px 25px;
+    display: flex;
+    justify-content: center;
+}
+
+.call-to-action-box {
+    display: flex;
+    align-items: center;
+    width: 600px;
+    background-color: #3882F6;
+    justify-content: space-between;
+    padding: 75px 250px;
+    border-radius: 8px;
+}
+
+.call-to-action-text-box {
+    display: flex;
+}
+
+.call-to-action-intro {
+    color: white;
+    font-size: 28px;
+    font-weight: 500;
+    margin-bottom: 8px;
+}
+
+.call-to-action-body {
+    color: #e5e7eb;
+    font-size: 20px;
+}
+
+.second-sign-up-button {
+    background-color: #3882F6;
+    font-size: 20px;
+    font-weight: bold;
+    color: white;
+    text-align: center;
+    border-radius: 8px;
+    padding: 8px 24px;
+    border: solid;
+    border-color: white;
+    border-width: medium;
+}
+
+footer {
+    /*resume progress here */
+}
