@@ -81,6 +81,9 @@ body {
     font-family: roboto;
     display: flex;
     flex-direction: column;
+    /* stretch to the height of viewport */
+    min-height: 100vh;
+    flex: 1;
 }
 
 .top-nav-bar-container {
@@ -241,5 +244,17 @@ body {
 }
 
 footer {
-    /*resume progress here */
+    background-color: #1F2937;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* Push footer to bottom of page */
+    margin-top: auto;
+    flex: 1 1 0;
+}
+
+.copyright-message {
+    color: #e5e7eb;
+    font-size: 20px;
+    /*padding: 40px 16px; remove?*/
 }
