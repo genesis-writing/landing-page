@@ -233,6 +233,7 @@ a {
     /* This fixed the issue where there was a gap between this container and the footer */
     flex: 1;
     background-color: green;
+
 }
 
 .call-to-action-box {
@@ -250,6 +251,8 @@ a {
 
 .call-to-action-text-box {
     display: flex;
+    /* Fixed typo, was missing the last t in "text" -_- */
+    flex-direction: column;
 }
 
 .call-to-action-intro {
