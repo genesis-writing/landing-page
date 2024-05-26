@@ -75,15 +75,22 @@
     font-family: "Roboto", sans-serif;
     font-weight: 900;
     font-style: italic;
-}  
+}
 
 body {
     font-family: roboto;
-    display: flex;
-    flex-direction: column;
     /* stretch to the height of viewport */
     min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    background-color: pink;
+}
+
+.main-contents {
+    display: flex;
+    flex-direction: column;
     flex: 1;
+    background-color: yellow;
 }
 
 .top-nav-bar-container {
@@ -112,9 +119,17 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
+    padding-left: 60px;
+    padding-right: 60px;
     padding-top: 50px;
     padding-bottom: 75px;
     gap: 45px;
+    /* Prevent image from spilling out of container */
+    overflow: hidden;
+}
+
+.intro-contents {
+    flex-shrink: 0;
 }
 
 .main-hero-text {
@@ -126,6 +141,7 @@ body {
 .main-hero-subtext {
     font-size: 18px;
     color: #e5e7eb;
+    margin-bottom: 8px;
 }
 
 .first-sign-up-button {
@@ -137,6 +153,10 @@ body {
     border-radius: 8px;
     padding: 8px 24px;
     border: none;
+}
+
+.food-content-container ,.call-to-action-container {
+    background-color: white;
 }
 
 .foods-statement {
@@ -199,19 +219,25 @@ body {
 }
 
 .call-to-action-container {
-    padding: 100px 25px;
     display: flex;
     justify-content: center;
+    align-items: center;
+    /* This fixed the issue where there was a gap between this container and the footer */
+    flex: 1;
+    background-color: green;
 }
 
 .call-to-action-box {
     display: flex;
     align-items: center;
-    width: 600px;
+    flex-basis: 600px;
     background-color: #3882F6;
     justify-content: space-between;
     padding: 75px 250px;
     border-radius: 8px;
+    flex-wrap: wrap;
+    /* Prevent panel from spilling out of container */
+    overflow: hidden;
 }
 
 .call-to-action-text-box {
@@ -248,13 +274,11 @@ footer {
     display: flex;
     justify-content: center;
     align-items: center;
-    /* Push footer to bottom of page */
-    margin-top: auto;
-    flex: 1 1 0;
+    flex-shrink: 0;
+    padding: 45px 90px;
 }
 
 .copyright-message {
     color: #e5e7eb;
     font-size: 20px;
-    /*padding: 40px 16px; remove?*/
 }
