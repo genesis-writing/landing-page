@@ -105,6 +105,12 @@ body {
     color: #F9FAF8;
 }
 
+a {
+    text-decoration: none;
+    /* Ensure links aren't the default blue color */
+    color: inherit;
+}
+
 .top-nav-bar-links {
     list-style-type: none;
     font-size: 18px;
