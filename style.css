@@ -78,7 +78,7 @@
 }
 
 body {
-    font-family: roboto;
+    font-family: roboto, Arial, Helvetica;
     /* stretch to the height of viewport */
     min-height: 100vh;
     display: flex;
