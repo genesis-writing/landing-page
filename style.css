@@ -159,6 +159,7 @@ a {
     border-radius: 8px;
     padding: 8px 24px;
     border: none;
+    cursor:pointer;
 }
 
 .food-content-container ,.call-to-action-container {
@@ -215,6 +216,7 @@ a {
     font-weight: 300px;
     color: #1F2937;
     align-self: flex-start;
+    margin-bottom: 8px;
 }
 
 .quote-source {
@@ -260,6 +262,7 @@ a {
 .call-to-action-body {
     color: #e5e7eb;
     font-size: 20px;
+    margin-bottom: 8px;
 }
 
 .second-sign-up-button {
@@ -273,6 +276,7 @@ a {
     border: solid;
     border-color: white;
     border-width: medium;
+    cursor:pointer;
 }
 
 footer {
