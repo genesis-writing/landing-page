@@ -2,7 +2,7 @@
 
 Welcome!
 
-I created this page for the Landing Page project, part of the Odin Project's Foundations Course. I practiced my Git,HTML, and CSS skills throughout this project.
+I created this page for the Landing Page project, part of the Odin Project's Foundations Course. I practiced my Git, HTML, and CSS skills throughout this project.
 
 ## Image Credits
 
