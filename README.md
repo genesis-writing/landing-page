@@ -1,7 +1,8 @@
 # Landing Page for Morning Dove Cave
 
-Welcome! I created this page for the Landing Page project, part of the Odin Project's Foundations Course. I practice my Git,HTML, and CSS skills throughout this project.
-I 
+Welcome!
+
+I created this page for the Landing Page project, part of the Odin Project's Foundations Course. I practiced my Git,HTML, and CSS skills throughout this project.
 
 ## Image Credits
 

@@ -2,6 +2,8 @@
     /* Reset to override the user-agent stylesheet */
     margin: 0;
     padding: 0;
+    /* Ensure accurate element dimensions */
+    box-sizing: border-box;
 }
 
 /* Google Roboto font */
@@ -83,14 +85,12 @@ body {
     min-height: 100vh;
     display: flex;
     flex-direction: column;
-    background-color: pink;
 }
 
 .main-contents {
     display: flex;
     flex-direction: column;
     flex: 1;
-    background-color: yellow;
 }
 
 .top-nav-bar-container {
@@ -159,10 +159,10 @@ a {
     border-radius: 8px;
     padding: 8px 24px;
     border: none;
-    cursor:pointer;
+    cursor: pointer;
 }
 
-.food-content-container ,.call-to-action-container {
+.food-content-container {
     background-color: white;
 }
 
@@ -232,21 +232,24 @@ a {
     align-items: center;
     /* This fixed the issue where there was a gap between this container and the footer */
     flex: 1;
-    background-color: green;
-
+    flex-direction: column;
+    background-color: white;
+    
 }
 
 .call-to-action-box {
     display: flex;
     align-items: center;
-    flex-basis: 600px;
     background-color: #3882F6;
-    justify-content: space-between;
     padding: 75px 250px;
     border-radius: 8px;
     flex-wrap: wrap;
     /* Prevent panel from spilling out of container */
     overflow: hidden;
+    gap: 100px;
+    flex-shrink: 0;
+    margin-top: 50px;
+    margin-bottom: 50px;
 }
 
 .call-to-action-text-box {
